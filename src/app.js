@@ -32,4 +32,5 @@ app.use(handleErrors);
 
 app.listen(config.PORT, async () => {
   console.log(`Server listening on port ${config.PORT}`);
+  console.log(`Configured port: ${config.PORT}`);
 });
